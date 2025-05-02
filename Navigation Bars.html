@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- saved from url=(0067)file:///C:/Users/user/OneDrive/Desktop/week1/Navigation%20Bars.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>Navigation Bars</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .heading-container {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin-bottom: 20px;
+        }
+
+        .heading-container h3 {
+            margin: 0;
+        }
+
+        .main-container {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+           
+        }
+
+        
+        .vertical-nav {
+            border: 1px solid #000;
+            width: 200px;
+        }
+
+        .vertical-nav .menu {
+            background-color: lightblue;
+        }
+
+        .vertical-nav a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: blue;
+            font-size: 18px;
+        }
+
+        .vertical-nav a.home {
+            background-color: orange;
+            color: white;
+            font-weight: bold;
+        }
+
+        
+        .horizontal-nav {
+            border: 1px solid #000;
+            height: fit-content;
+            position:relative;
+            left:50px;
+            top:50px;
+        }
+
+        .horizontal-menu {
+            display: flex;
+        }
+
+        .horizontal-menu a {
+            padding: 10px 20px;
+            text-decoration: none;
+            text-align: center;
+            flex: 1;
+            border-left: 1px solid #ccc;
+            background-color: #e0e0e0;
+            color: blue;
+            font-size: 18px;
+        }
+
+        .horizontal-menu a:first-child {
+            border-left: none;
+            background-color: gray;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <div class="heading-container">
+        <h3>Vertical Navigation Bar</h3>
+        <h3>Horizontal Navigation Bar</h3>
+    </div>
+
+    
+    <div class="main-container">
+        
+        <div class="vertical-nav">
+            <div class="menu">
+                <a href="file:///C:/Users/user/OneDrive/Desktop/week1/Navigation%20Bars.html#" class="home">Home</a>
+                <a href="file:///C:/Users/user/OneDrive/Desktop/week1/Navigation%20Bars.html#">Java</a>
+                <a href="file:///C:/Users/user/OneDrive/Desktop/week1/Navigation%20Bars.html#">CSS</a>
+                <a href="file:///C:/Users/user/OneDrive/Desktop/week1/Navigation%20Bars.html#">HTML</a>
+                <a href="file:///C:/Users/user/OneDrive/Desktop/week1/Navigation%20Bars.html#">Bootstrap</a>
+            </div>
+        </div>
+
+        
+        <div class="horizontal-nav">
+            <div class="horizontal-menu">
+                <a href="file:///C:/Users/user/OneDrive/Desktop/week1/Navigation%20Bars.html#">Home</a>
+                <a href="file:///C:/Users/user/OneDrive/Desktop/week1/Navigation%20Bars.html#">Java</a>
+                <a href="file:///C:/Users/user/OneDrive/Desktop/week1/Navigation%20Bars.html#">HTML</a>
+                <a href="file:///C:/Users/user/OneDrive/Desktop/week1/Navigation%20Bars.html#">CSS</a>
+            </div>
+        </div>
+    </div>
+
+
+
+</body></html>

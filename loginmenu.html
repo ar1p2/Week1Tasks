@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        .login-container img {
+            width: 100px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0 16px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .login-container input[type="submit"] {
+            background-color: green;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 100%;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .login-container input[type="submit"]:hover {
+            background-color: #0b7d0b;
+        }
+
+        .cancel-button {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 10px 16px;
+            margin-top: 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .remember {
+            text-align: left;
+            margin-top: 10px;
+        }
+
+        .login-container a {
+            float: right;
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #555;
+            text-decoration: none;
+        }
+
+        .login-container a:hover {
+            text-decoration: underline;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-container">
+    <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="User Avatar">
+    <form>
+        <label>Username</label>
+        <input type="text" placeholder="Enter Username" required>
+
+        <label>Password</label>
+        <input type="password" placeholder="Enter Password" required>
+
+        <input type="submit" value="Login">
+
+        <div class="remember">
+            <input type="checkbox"> Remember me
+        </div>
+
+        <button type="button" class="cancel-button">Cancel</button>
+        <a href="#">Forgot password?</a>
+    </form>
+</div>
+
+</body>
+</html>
